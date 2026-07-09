@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  verification: {
+    google: "HoebhTcQLOAXZLaZvfl55vEm_xa-ZVaXPywIiVwhQdA",
+  },
   openGraph: {
     title: "Gonbee Apps",
     description:

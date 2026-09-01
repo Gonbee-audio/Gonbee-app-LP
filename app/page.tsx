@@ -265,7 +265,17 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-3 pt-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
             <p>© 2026 Gonbee Apps. All rights reserved.</p>
-            <p>Gonbee Apps operated by Yuuhei Takahashi.</p>
+            <div className="flex flex-wrap gap-x-5 gap-y-2">
+              <a className="hover:text-ink" href="/privacy">
+                Privacy Policy
+              </a>
+              <a className="hover:text-ink" href="/terms">
+                Terms
+              </a>
+              <a className="hover:text-ink" href="/data-deletion">
+                Data Deletion
+              </a>
+            </div>
           </div>
         </div>
       </footer>
